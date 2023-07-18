@@ -1,4 +1,4 @@
-{% set version = "22.0.1" %}
+{% set version = "22.1.0" %}
 
 package:
   name: augur
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/n/nextstrain-augur/nextstrain-augur-{{ version }}.tar.gz
-  sha256: ce61dc03514afdeb9a2aca8483b7e4d3854bcc13e70224f912e751a4a92f39b3
+  sha256: 86ce13fbbced68c55f8bdac449c1ce7dfae0183881df91c5ceb25dd8d177cf05
 
 build:
   number: 0
