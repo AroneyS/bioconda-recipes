@@ -24,8 +24,8 @@ requirements:
   run:
     - python >=3.7, <3.12
     - singlem >=0.18.0
-    - polars ==0.20.31
-    - diamond ==2.1.24
+    - polars >1.0.0
+    - diamond >=2.1.21
     - zenodo_backpack >=0.3
 
 test:
@@ -45,4 +45,3 @@ about:
   license_family: "GPL3"
   license_file: LICENCE.txt
   dev_url: "https://github.com/wwood/isiteuk"
-  doc_url: "https://wwood.github.io/isiteuk"
